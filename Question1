@@ -1,0 +1,79 @@
+program LoopDoc;
+uses crt;
+var
+ student_name:char;
+ paper1, paper2, paper3, paper4, total_marks:real;
+Begin
+
+// Student Name
+Writeln('Enter Name');
+readln(student_name);
+
+// Test Scores
+    
+//Paper 1
+writeln('Enter Score of Paper1');
+readln(paper1);
+if( paper1 > 13 ) then
+begin
+    writeln('You have Passed Paper1');
+end
+else
+begin
+    if ( paper1 < 13 ) then
+    writeln('You have Failed Paper1');
+end;
+
+//Paper 2 
+writeln('Enter Score of Paper2');
+readln(paper2);
+if( paper2 > 13 ) then
+begin
+    writeln('You have Passed Paper2');
+end
+else
+begin
+    if ( paper1 < 13 ) then
+    writeln('You have Failed Paper2');
+end;
+
+//Paper 3
+writeln('Enter Score of Paper3');
+readln(paper3);
+if( paper3 > 13 ) then
+begin
+    writeln('You have Passed Paper3');
+end
+else
+begin
+    if ( paper1 < 13 ) then
+    writeln('You have Failed Paper3');
+end;
+
+//Paper 4
+writeln('Enter Score of Paper4');
+readln(paper4);
+if( paper4 > 13 ) then
+begin
+    writeln('You have Passed Paper4');
+end
+else
+begin
+    if ( paper1 < 13 ) then
+    writeln('You have Failed Paper4');
+end;
+
+total_marks:= (paper1 + paper2 + paper3 + paper4);
+writeln('Total Marks : ','%', total_marks:2:2);
+if( total_marks > 56 ) then
+begin
+    writeln('You have Passed the Test Total');
+    writeln('Congratulations ', student_name, 'on Passing the test');
+end
+else
+begin
+    writeln('You have Failed the Test Total');
+end;
+
+
+End.
