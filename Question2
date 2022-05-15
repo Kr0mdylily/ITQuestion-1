@@ -1,0 +1,13 @@
+Program LoopDoc;
+uses crt;
+var
+  distance,term,difference:real;
+Begin
+ writeln('Enter The distance from home to school in meters');
+Readln(distance);
+term:= 39;
+
+difference:= distance -  term;
+writeln('Difference is: ',difference:2:1,'m');
+readln();
+End.
