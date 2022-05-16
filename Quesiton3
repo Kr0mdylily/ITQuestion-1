@@ -1,7 +1,8 @@
 Program LoopDoc;
 uses crt;
 var
-  total,discount,price,quantity_items:real;
+  total,discount,price:integer;
+  quantity_items:real;
 Begin
 //Amount of items
 writeln('Enter the amount of items');
