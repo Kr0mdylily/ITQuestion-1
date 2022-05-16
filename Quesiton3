@@ -1,7 +1,7 @@
 Program LoopDoc;
 uses crt;
 var
-  total,discount,price,quantity_items:real;
+  total,discount,price,quantity_items:integer;
 Begin
 //Amount of items
 writeln('Enter the amount of items');
@@ -26,8 +26,8 @@ End
 begin
     total:= (price);
     discount:= (0);
-    writeln('Your total is : $', total:2:2);
-    writeln('Discount : $', discount:2:2, 'off');
+    writeln('Your Grand Total is : $', total:2:2);
+    writeln('Discount : $', discount:2:2, ' off');
     writeln('Amount of items purchased: ', quantity_items:2:2);
 End
 
