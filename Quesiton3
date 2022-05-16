@@ -18,16 +18,16 @@ discount:= ( 5 / 100 ) * (price);
 if( price > 200) then
 begin
     total:= (price - discount);
-    writeln('Your total is : ', total:2:2);
-    writeln('Discount : ', discount:2:2, 'off');
+    writeln('Your Grant Total is : ', total:2:2);
+    writeln('Discount $: ', discount:2:2, ' off');
     writeln('Amount of items purchased: ', quantity_items:2:2);
 End
     else
 begin
     total:= (price);
     discount:= (0);
-    writeln('Your total is : $', total:2:2);
-    writeln('Discount : $', discount:2:2, 'off');
+    writeln('Your Grand Total is : $', total:2:2);
+    writeln('Discount : $', discount:2:2, ' off');
     writeln('Amount of items purchased: ', quantity_items:2:2);
 End
 
